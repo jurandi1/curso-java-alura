@@ -11,6 +11,7 @@ public class TestaBanco {
 		Conta contaDoJunior = new Conta();
 		contaDoJunior.deposita(100);
 		
+		//associa o Cliente junior a contaDoJunior
 		contaDoJunior.titular = junior;
 		
 		System.out.println(contaDoJunior.titular.nome);
