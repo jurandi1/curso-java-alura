@@ -26,6 +26,14 @@ public class TestaMetodo {
 		
 		System.out.println(contaDaAmanda.saldo);
 		System.out.println(contaDoJunior.saldo);
+		
+		contaDoJunior.titular = "Jurandi Junior";
+		System.out.println(contaDoJunior.titular);
+		
+		
+		
+		
+		
 	}
 
 }
