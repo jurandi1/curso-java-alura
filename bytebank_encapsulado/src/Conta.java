@@ -3,9 +3,13 @@ public class Conta {
 	private int agencia;
 	private int numero;
 	private Cliente titular;
+	//static faz com que a declaração vire da class: é um atributo da class
+	private static int total;
 	
 	//Contrutor padrão
 	public Conta(int agencia, int numero) {
+		Conta.total++;
+		System.out.println("o total de contas é " + Conta.total);
 		this.agencia = agencia;
 		this.numero = numero;
 		System.out.println("Criando conta " + this.numero);
@@ -70,4 +74,7 @@ public class Conta {
 		return titular;
 	}
 	
+	public static int getTotal() {
+		return Conta.total;
+	}
 }
