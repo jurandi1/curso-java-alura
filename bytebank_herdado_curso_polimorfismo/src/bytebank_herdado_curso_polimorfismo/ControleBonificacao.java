@@ -1,5 +1,5 @@
 package bytebank_herdado_curso_polimorfismo;
-
+//Trabalhando com polimorfismo
 public class ControleBonificacao {
 	
 	private double soma;
@@ -9,7 +9,7 @@ public class ControleBonificacao {
 //		this.soma = this.soma + boni;	
 //	}
 	
-	public void registra(Funcionario f) {
+	public void registra(Funcionario f) { //Mesmo usando uma referência genérica ao executar o código sempre será chamado um método específico
 		double boni = f.getBonificacao();
 		this.soma = this.soma + boni;	
 	}
