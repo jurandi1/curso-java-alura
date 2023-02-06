@@ -1,6 +1,6 @@
 package bytebank_herdado_curso_polimorfismo;
 
-public class Funcionario {
+public abstract class Funcionario {
 	
 	private String nome;
 	private String cpf;
