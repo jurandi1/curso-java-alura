@@ -4,6 +4,8 @@ public class TesteFuncionario {
 
 	public static void main(String[] args) {
 		
+//		Cliente cliente = new Cliente();
+		
 		Gerente junior = new Gerente();
 		junior.setNome("Jurandi Junior");
 		junior.setCpf("111.111.111-04");

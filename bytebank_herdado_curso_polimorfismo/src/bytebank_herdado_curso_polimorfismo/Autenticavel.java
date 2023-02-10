@@ -1,6 +1,6 @@
 package bytebank_herdado_curso_polimorfismo;
 
-public abstract class FuncionarioAutenticavel extends Funcionario {
+public abstract class Autenticavel {
 
 	private int senha;
 
