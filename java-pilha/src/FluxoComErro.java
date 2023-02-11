@@ -1,5 +1,5 @@
 
-public class Fluxo {
+public class FluxoComErro {
 
 	public static void main(String[] args) {
 		System.out.println("Ini do main");
@@ -20,9 +20,7 @@ public class Fluxo {
 	}
 
 	private static void metodo2() {
-		System.out.println("Ini do metodo2");
-		throw new MinhaExcecao("Erro");
-
-//		System.out.println("Fim do metodo2");
+		System.out.println("Chamando método 2");
+		metodo2();
 	}
 }
