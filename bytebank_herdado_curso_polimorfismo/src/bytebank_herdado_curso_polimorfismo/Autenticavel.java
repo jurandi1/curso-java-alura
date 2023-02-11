@@ -1,19 +1,13 @@
 package bytebank_herdado_curso_polimorfismo;
 
-public abstract class Autenticavel {
+// Contrato autenticavel
+	//quem assina esse contrato precisa implementar
+		//metodo setSenha
+		//metodo autentica
 
-	private int senha;
+public abstract interface Autenticavel {
+	
+	public abstract void setSenha(int senha);
 
-	public void setSenha(int senha) {
-		this.senha = senha;
-	}
-
-	public boolean autentica(int senha) {
-		if (this.senha == senha) {
-			return true;
-		} else {
-			return false;
-		}
-	}
-
+	public abstract boolean autentica(int senha);
 }
