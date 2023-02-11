@@ -2,8 +2,8 @@
 public class Fluxo {
 
     public static void main(String[] args) {
-        System.out.println("Ini do main");
-        metodo1();
+        System.out.println("Ini do main"); // no modo Debug fluxo pressione "F6" para continuar a execução do código(linha por linha)
+        metodo1(); // no modo Debug fluxo pressione "F5" para entrar no método(entrando no método) 
         System.out.println("Fim do main");
     }
 
