@@ -4,13 +4,38 @@ public class TesteString {
 
 	public static void main(String[] args) {
 		
+		String vazio = "   Jurandi   ";
+		String outroVazio = vazio.trim();
+		
+		System.out.println(vazio.contains("Jur"));
+		System.out.println(outroVazio);
+		
 		String nome = "Jurandi"; //object literal
 //		String outro = new String("Jurandi");
-//		String outro = nome.replace("J", "j");
-		String outro = nome.toUpperCase();
 		
-		System.out.println(nome);
-		System.out.println(outro);
+		System.out.println(nome.length());
+
+		for(int i = 0; i < nome.length(); i++) {
+			System.out.println(nome.charAt(i));
+		}
+		
+//		String sub = nome.substring(1);
+//		System.out.println(sub);
+		
+//		int pos = nome.indexOf("di");
+//		System.out.println(pos);
+		
+//		char c = nome.charAt(0);
+//		System.out.println(c);
+		
+//		char c = 'J';
+//		char d = 'j';
+//		String outro = nome.replace(c, d);
+		
+//		String outro = nome.toUpperCase();
+		
+//		System.out.println(nome);
+//		System.out.println(outro);
 		
 	}
 	
