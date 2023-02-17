@@ -1,4 +1,5 @@
-public class Teste {
+package br.com.bytebank.banco.test;
+public class TesteArrayDePrimitivos {
 	
 	//Array
 	public static void main(String[] args) {
