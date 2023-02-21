@@ -1,6 +1,6 @@
 package br.com.bytebank.banco.test.util;
 
-public class TesteArrayList {
+public class TesteWrapperInteger {
 
 	public static void main(String[] args) {
 
