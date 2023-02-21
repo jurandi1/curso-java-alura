@@ -1,6 +1,7 @@
 package br.com.bytebank.banco.test.util;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
@@ -9,8 +10,10 @@ public class TesteArrayList {
 
 	public static void main(String[] args) {
 		
-		// Introdução ao Generics
-		ArrayList<Conta> lista = new ArrayList<Conta>();
+		
+		List<Conta> lista = new ArrayList<Conta>(); //usa array por baixo
+		//List<Conta> lista = new LinkedList<Conta>(); //lista linkada
+		//Collection<Conta> lista = new Vector<Conta>(); //usa array por baixo, mas tambem é threadsafe
 		
 		Conta cc = new ContaCorrente(22, 11);
 		lista.add(cc);
@@ -19,7 +22,7 @@ public class TesteArrayList {
 		lista.add(cc2);
 		
 		System.out.printf("Tamanho %d%n", lista.size());
-		Conta ref = lista.get(0);
+		Conta ref = lista.get(0); // com collection não compila
 		System.out.println(ref.getNumero());
 		
 		lista.remove(0);
