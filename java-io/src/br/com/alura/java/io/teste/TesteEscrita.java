@@ -14,8 +14,8 @@ public class TesteEscrita {
 		// Fluxo de entrada com arquivo
 
 		OutputStream fos = new FileOutputStream("loren2.txt");
-		Writer isr = new OutputStreamWriter(fos);
-		BufferedWriter bw = new BufferedWriter(isr);
+		Writer osw = new OutputStreamWriter(fos);
+		BufferedWriter bw = new BufferedWriter(osw);
 
 		bw.write("A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim");
 		bw.newLine();
