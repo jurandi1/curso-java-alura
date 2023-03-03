@@ -10,19 +10,20 @@ public class TesteLeitura2 {
 		Scanner sc = new Scanner(new File("contas.csv"));
 		while(sc.hasNextLine()) {
 			String linha = sc.nextLine();
-			System.out.println(linha);
+			//System.out.println(linha);
 			
 			Scanner linhaSc = new Scanner(linha); 	
 			linhaSc.useDelimiter(",");
 			linhaSc.useLocale(Locale.US);
 			
-			String  valor1 = linhaSc.next();
-			int  valor2 = linhaSc.nextInt();
-			int  valor3 = linhaSc.nextInt();
-			String  valor4 = linhaSc.next();
-			double valor5 = linhaSc.nextDouble();
+			String tipoConta = linhaSc.next();
+			int  agencia = linhaSc.nextInt();
+			int  numero = linhaSc.nextInt();
+			String  titular = linhaSc.next();
+			double saldo = linhaSc.nextDouble();
 			
-			System.out.println(valor1 + valor2 + valor3 + valor4 + valor5);
+			System.out.format(new Locale("pt", "BR"), "%s - %04d-%08d, %20s: %08.2f %n", 
+					tipoConta, agencia, numero, titular, saldo);
 			
 			linhaSc.close();
 			
