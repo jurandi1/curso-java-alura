@@ -13,7 +13,7 @@ public class TesteEscrita {
 
 		// Fluxo de entrada com arquivo
 
-		OutputStream fos = new FileOutputStream("loren2.txt");
+		OutputStream fos = new FileOutputStream("lorem2.txt");
 		Writer osw = new OutputStreamWriter(fos);
 		BufferedWriter bw = new BufferedWriter(osw);
 

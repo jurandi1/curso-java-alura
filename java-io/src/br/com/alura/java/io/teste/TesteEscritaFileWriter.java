@@ -4,7 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class TesteEscrita2 {
+public class TesteEscritaFileWriter {
 
 	public static void main(String[] args) throws IOException {
 
@@ -14,7 +14,7 @@ public class TesteEscrita2 {
 //		Writer osw = new OutputStreamWriter(fos);
 //		BufferedWriter bw = new BufferedWriter(osw);
 
-		BufferedWriter bw = new BufferedWriter(new FileWriter("loren2.txt"));
+		BufferedWriter bw = new BufferedWriter(new FileWriter("lorem2.txt"));
 		
 		bw.write("A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim");
 		bw.newLine();
