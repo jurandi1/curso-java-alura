@@ -13,6 +13,8 @@ public class TesteEscritaFileWriter {
 //		OutputStream fos = new FileOutputStream("loren2.txt");
 //		Writer osw = new OutputStreamWriter(fos);
 //		BufferedWriter bw = new BufferedWriter(osw);
+		
+		long ini = System.currentTimeMillis();
 
 		BufferedWriter bw = new BufferedWriter(new FileWriter("lorem2.txt"));
 		
@@ -23,6 +25,11 @@ public class TesteEscritaFileWriter {
 		
 		
 		bw.close();
+		
+		long fim = System.currentTimeMillis();
+		
+        System.out.println("Passaram " + (fim - ini) + " milissegundos");
+
 	}
 
 }
