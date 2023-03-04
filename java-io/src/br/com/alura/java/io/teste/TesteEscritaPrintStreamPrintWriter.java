@@ -16,7 +16,7 @@ public class TesteEscritaPrintStreamPrintWriter {
 //		BufferedWriter bw = new BufferedWriter(new FileWriter("loren2.txt"));
 //		PrintStream ps = new PrintStream(new File("lorem2.txt"));
 		
-		PrintWriter ps = new PrintWriter("lorem2.txt");
+		PrintWriter ps = new PrintWriter("lorem2.txt", "UTF-8");
 		
 		ps.println("A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim");
 		ps.println();

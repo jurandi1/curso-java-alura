@@ -8,7 +8,7 @@ public class TesteUnicodeEEncoding {
 	public static void main(String[] args) throws Exception {
 
 		String s = "ç";
-		System.out.println(s.codePointAt(0));
+		System.out.println(s.codePointAt(0)); //unicode
 		
 		
 		Charset charset = Charset.defaultCharset();
