@@ -9,6 +9,8 @@
 * [Iniciando polimorfismo](#Iniciando-polimorfismo)
 * [Java Exceções](#Java-Exceções)
 * [Java Bibliotecas](#Java-Bibliotecas)
+* [O que o Java 8 proporcionou](#O-que-o-Java-8-proporcionou)
+* [Testes automatizados com JUnit](#Testes-automatizados-com-JUnit)
 * [Desenvolvedor](#Desenvolvedor)
 
 <h2>Introdução</h2>
@@ -61,6 +63,13 @@ Você pode acessar o código fonte dos projetos desse curso [aqui](https://githu
 
 Você pode acessar o código fonte dos projetos desse curso [aqui](https://github.com/jurandi1/curso-java-alura/commit/7421c9fc0cb045804eb19e40d0063e3c10950563).
 
+<h2>O que o Java 8 proporcionou</h2>
+
+Você pode acessar o código fonte dos projetos desse curso [aqui](https://github.com/jurandi1/curso-java-alura/tree/main/Java8/src).
+
+<h2>Testes automatizados com JUnit</h2>
+
+Você pode acessar o código fonte dos projetos desse curso [aqui](https://github.com/jurandi1/curso-java-alura/tree/main/Java8/src).
 
 <h2>Desenvolvedor</h2>
 
