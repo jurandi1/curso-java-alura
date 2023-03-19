@@ -69,7 +69,7 @@ Você pode acessar o código fonte dos projetos desse curso [aqui](https://githu
 
 <h2>Testes automatizados com JUnit</h2>
 
-Você pode acessar o código fonte dos projetos desse curso [aqui](https://github.com/jurandi1/curso-java-alura/tree/main/Java8/src).
+Você pode acessar o código fonte dos projetos desse curso [aqui](https://github.com/jurandi1/curso-java-alura/tree/main/java-testes-unitarios/src).
 
 <h2>Desenvolvedor</h2>
 
