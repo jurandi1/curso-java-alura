@@ -1,4 +1,7 @@
-<h1 align="center"> Formação Java com Orientação a Objetos da Alura</h1>
+<h1 align="left"> Formação Aprenda a programar em Java com Orientação a Objetos</h1>
+
+![images](https://user-images.githubusercontent.com/105133847/226204168-e83891dc-d30c-41d5-a836-80f79fa23bb1.jpg)
+
 
 # Índice 
 
